@@ -1,0 +1,19 @@
+<?php
+// =========================================================
+// Bright Steps - Config File
+// انسخ هذا الملف وسميه config.php وحط فيه بيانات قاعدة البيانات
+// الحقيقية من Hostinger hPanel (MySQL Databases).
+// ملف config.php الحقيقي متجاهَل من Git (.gitignore) عشان الأمان.
+// =========================================================
+
+define('DB_HOST', 'localhost');       // عادة localhost على Hostinger
+define('DB_NAME', 'u123456789_brightsteps');
+define('DB_USER', 'u123456789_admin');
+define('DB_PASS', 'PUT_STRONG_PASSWORD_HERE');
+define('DB_CHARSET', 'utf8mb4');
+
+// رابط الموقع بدون / في الآخر
+define('SITE_URL', 'https://brightstepsnursery.com');
+
+// مفتاح سري لتشفير الجلسات - غيّره لأي نص عشوائي طويل
+define('APP_SECRET', 'change-this-to-a-long-random-string');
